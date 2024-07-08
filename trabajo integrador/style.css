@@ -1,0 +1,266 @@
+html {
+    background-image: url(https://png.pngtree.com/background/20210715/original/pngtree-green-fresh-texture-watercolor-textured-background-picture-image_1266151.jpg);
+    background-size: cover;
+    justify-content: flex-start;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(116, 248, 171, 0.87);
+ }
+ * {
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Gothic;
+ }
+ .home {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+ }
+ .in-flex {
+    flex: 1;
+    min-width: 300px;
+    background-color: rgba(58, 172, 134, 0.781);
+    border: 2px solid rgba(102, 223, 182, 0.801);
+    border-radius: 5px;
+    margin: 20px;
+    color: azure;
+    padding: 10px;
+ }
+ .in-flex:first-child {
+    flex: 2;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgba(58, 172, 134, 0.781);
+    border: 2px solid rgba(102, 223, 182, 0.801);
+    border-radius: 5px;
+    font-size: 20px;
+ }
+ .in-flex div {
+    padding: 25px;
+    margin: 20px;
+
+ }
+ .home-t {
+    
+    flex-wrap:wrap-reverse;
+    text-align: center;
+    
+ }
+ h1{
+    margin: 5px;
+ }
+ a{
+    margin: 5px;
+ }
+ .nombre{
+    margin-top: 10px;
+    margin-bottom: 20px;
+ }
+ .tituloimagen{
+    display: flex;
+    height: 120px;
+    width: 120px;
+    margin-bottom: -124px;
+    margin-left: 20px;
+    padding-top: 10px;
+ }
+ .titulo {
+    text-align: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.103);
+    border-radius: 5px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: rgba(77, 147, 212, 0.562);
+    
+ }
+ a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+ }
+ nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    
+ }
+ nav a:hover {
+    color: aliceblue;
+ }
+ 
+ 
+ muestra1 {
+     margin-top: 35px;
+     margin-left: 70px;
+     width: 350px;
+     height: 200;
+ }
+ 
+     
+ 
+ #descripcion{
+     text-align: right;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 20px;
+     background-image: url(https://www.aladinia.com/blog/wp-content/uploads/2018/04/7-circuito-spa.jpg);
+     background-position: 0px -142px;
+     background-size: cover;
+     border: 2px solid rgb(219, 219, 219);
+     border-radius: 8px;
+     margin-top: 20px;
+     margin-left: 20px;
+     margin-right: 20px;
+     margin-bottom: 30px;
+     color: rgb(5, 124, 172);
+     text-decoration: aliceblue;
+     padding-top: 20px;
+     padding-bottom: -50px;
+    
+    
+ }
+ .informacion2{
+    text-align: center;
+    border-radius: 5%;
+    border: 2px solid rgba(120, 201, 255, 0.397);
+    background-color: rgba(180, 255, 242, 0.507);
+    margin-left: 620px;
+    margin-bottom: 22px;
+    margin-right: 22px;
+ }
+ .descripcion img {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    
+    
+ }
+ descripcion2{
+     text-align: center;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 20px;
+     background-color: rgb(255, 255, 255);
+     border: 2px solid rgb(219, 219, 219);
+     border-radius: 8px;
+
+     margin-right: 10px;
+     margin-top: -100px;
+     color: rgb(64, 236, 178);
+     text-decoration: aliceblue;
+     padding-top: -20px;
+ }
+ .anotate{
+     text-align: center;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 30px;
+     background-image: url(https://serapool.fra1.cdn.digitaloceanspaces.com/media/4752/1700134437065.png);
+     border: 2px solid rgb(219, 219, 219);
+     color: rgb(64, 236, 178);
+     text-decoration: aliceblue;
+     border-radius: 10px;
+     margin: 10px;
+     background-size: cover;
+     padding: 50px;
+     
+    
+ }
+ 
+ footer{
+     display: grid;
+     grid-template-columns: 1fr 2fr 1fr;
+     text-align: center;
+     color: rgb(43, 147, 113);
+     background-color: lightblue;
+     
+ }
+
+.linkvideo {
+    height: 200px;
+    width: 250px;
+}
+
+#btnScrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background-color: #007bff;
+    color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.p{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+informacion {
+    color: rgb(62, 64, 219);
+    background-color: rgba(0, 255, 255, 0.205);
+    margin-left: 350px;
+    margin-right: 350px;
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.nombre{
+    font-size: 50px;
+}
+.video{
+    margin-left: 20px;
+    text-align: center;
+    background-color: rgba(131, 255, 224, 0.404);
+    border-radius: 10px;
+    margin-bottom: -400px;
+    padding-bottom: 10px;
+    
+    border: 2px solid rgba(38, 219, 204, 0.589);
+    color: #035f48ab;
+}
+.informacion2{
+    background-color: rgba(131, 255, 224, 0.404);
+    border: 2px solid rgba(38, 219, 204, 0.589);
+    color: #1b7961ab;
+    
+    padding-bottom: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    text-align: center;
+    
+}
+img{
+    width: 350px;
+    height: 200px;
+}
+input {
+    width: 200px;
+    height: 50px;
+    background-color: #ffff;
+    outline: none;
+    border: 2px solid rgba(107, 243, 198, 0.486);
+    border-radius: 5px;
+    padding: 0 15px;
+    box-shadow: 0 0 10px rgba(94, 231, 231, 0.514), inset 0 0 10px rgba(94, 231, 231, 0.514);
+    font-size: 20px;
+    margin: 15px;
+}
+input::placeholder {
+    color: rgba(62, 175, 138, 0.678);
+}
+select {
+    width: 200px;
+    height: 50px;
+    background-color: #ffff;
+    outline: none;
+    border: 2px solid rgba(107, 243, 198, 0.486);
+    border-radius: 5px;
+    padding: 0 15px;
+    box-shadow: 0 0 10px rgba(94, 231, 231, 0.514), inset 0 0 10px rgba(94, 231, 231, 0.514);
+    font-size: 20px;
+}
+option{
+    color: rgba(62, 175, 138, 0.678);
+}
